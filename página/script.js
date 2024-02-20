@@ -123,13 +123,14 @@ ContinuarBtn.addEventListener("click",() => {
 })
 let ResetarBtn = document.getElementById("ResetarBtn")
 ResetarBtn.addEventListener("click", ( ) => {
-    /* Ajeitar o botão resete antes de ir pro cronometro */
+  
     
     Horas = 0
     Minutos = 0
     Segundos = 0
-    
-    
+    horas.value = '00'
+    minutos.value = '00'
+    segundos.value  = '00'
     IniciarBtn.style.display = "block";
     ContinuarBtn.style.display = "none"
     PausarBtn.style.display = "none"
