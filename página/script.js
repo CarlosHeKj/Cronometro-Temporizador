@@ -35,7 +35,7 @@ IniciarBtn.addEventListener("click", () => {
     temporizador(duração, temponatela);
 
     }else if(radesc[1].checked) {
-        
+      
         
         function formato(timer){
             return timer < 10 ? `0${timer}` : timer
