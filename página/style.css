@@ -1,0 +1,115 @@
+*{
+    font-family: 'Orbitron', sans-serif; 
+    color: white;
+}
+body{
+    background: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-size: 25px;
+  
+}
+#Temporizador{
+    display: block;
+    color: purple;
+}
+#Cronômetro{
+    display: none;
+    color: purple;
+}
+#agrupar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tempos{
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+}
+#input{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+input{
+    font-size: 20px;
+    width: 50px;
+    color: black;
+    margin-right: 10px;
+}
+span, #tempos{
+   font-size: 50px;
+   padding-right: 2px;
+   font-weight: bold ;
+   
+}
+
+.botoes{
+   display: flex;
+
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 2px solid purple;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background: purple;
+    color: black;
+    transform: scale(1.2);
+}
+#IniciarBtn{
+    display: flex;
+}
+#PausarBtn, #ResetarBtn, #ContinuarBtn, #temposmsegundos{
+    display: none;
+}
+#SelecionarBtn{
+    font-size: 10px;
+}
+#canto{
+    position: fixed;
+    border: 2px solid white;
+    padding: 5px;
+    line-height: 1.5rem;
+    right: 20px;
+    bottom: 20px;
+    font-weight: bold;
+}
+a{
+    
+    text-decoration: none;
+}
+ #canto::after{
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: red;
+    transition: all 300ms ease-in-out;
+}
+ #canto:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    width: 80%;
+    height: 0.2rem;
+    
+
+}

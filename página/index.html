@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h2 id="Temporizador">Temporizador</h2><h2 id="Cronômetro">Cronômetro</h2></header>
+    <section id="agrupar"><div  id="tempos"><span>00:00:00</span><span id="temposmsegundos">:000</span></div>
+        <div id="input">
+            Horas: <input type="number" name="horas" id="horas" value="00" min="00" max="99">
+            Minutos: <input type="number" name="minutos" id="minutos" value="00" min="00" max="59">
+             Segundos:
+            <input type="number" name="segundos" id="segundos" value="00" min="00" max="59"></div>
+        <p>Tipo: <input type="radio" name="radesc" id="temp" checked>
+                <label for="mas">Temporizador</label>
+            <input type="radio" name="radesc" id="cron">
+        <label for="fem">Cronômetro</label> <button id="SelecionarBtn">Selecionar</button></p> 
+        <div class="botoes">
+         
+        <button class="btn" id="IniciarBtn" >Iniciar</button>
+        <button class="btn" id="ContinuarBtn">Continuar</button>
+        <button class="btn" id="PausarBtn">Pausar</button>
+        <button class="btn" id="ResetarBtn">Resetar</button>
+    </div>
+    
+    </section>
+    
+    <div id="canto">
+        <footer><a href="https://www.instagram.com/pacocakj/" target="_blank"> &copy; Carlos Henrique</a ></footer>
+        <p>Obs: Para trocar os modos clique na <br> sua opção e no botão selecionar<br>Espero que esteja bom para você<br>
+        Antes de mudar o modo se lembre de<br>resetar.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
