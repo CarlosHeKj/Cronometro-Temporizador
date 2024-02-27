@@ -1,2 +1,2 @@
 # Cronometro-Temporizador
- Pagina simples de cronometro e temporizador
+ Pagina simples de **cronometro** e **temporizador**
