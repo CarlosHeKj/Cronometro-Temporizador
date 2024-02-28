@@ -153,6 +153,17 @@ ResetarBtn.addEventListener("click", ( ) => {
 })
 let SelecionarBtn = document.getElementById("SelecionarBtn")
 SelecionarBtn.addEventListener("click", () => {
+    clearInterval(intervalo)
+    MSegundosc = 0
+    Segundosc = 0
+    Minutosc = 0
+    Horasc = 0
+    Horas = 0
+    Minutos = 0
+    Segundos = 0
+    horas.value = '00'
+    minutos.value = '00'
+    segundos.value  = '00'
     if(radesc[0].checked){
         
         temponatela.innerHTML = `00:00:00`
